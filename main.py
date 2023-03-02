@@ -9,5 +9,9 @@ with col1:
 
 with col2:
     st.title("Eoin Mahon")
-    content = '''Im new to software development'''
+    content = '''I'm relatively new to software development and I'm using this to try get the hang of python.
+    Other languages I've used are C, C#, Java and SQL.'''
     st.info(content)
+
+content2 = '''<b>Below you can find some apps I have built in Python. Feel free to contact me</b>'''
+st.write(content2, unsafe_allow_html=True)
